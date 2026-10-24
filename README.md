@@ -34,6 +34,14 @@
 - 3 个 `legacy-google-snapshot` 保留已有包及其 Apache-2.0 声明。已知发布者为 Google，但当前对应的准确公开上游路径未确认，不能以相近名称冒充来源；CC Switch 跟踪的是本仓库的保留版本。
 - 第三方文件沿用各包自带许可证；本仓库未对全部内容统一重新授权。
 
+## 公共目录与分发
+
+公共主库为用户主目录中的 `.agents/skills`。Codex、Gemini CLI 原生读取此目录；DeepSeek Skills Manager 启用公共来源。Copilot CLI 官方支持此目录，但本机目前只有 VS Code 启动器，未安装实际 CLI。
+
+Claude Code 使用 CC Switch 的复制分发。CC Switch 中 Claude 的专属分发开关启用；Codex/Gemini 的专属分发关闭以避免重复副本。这些开关表示“是否复制到专属目录”，不表示原生公共库中的 Skill 不可用。系统和插件自带的 Skill 留在软件自己的目录。
+
+Windows 当前无符号链接权限，因此未更改系统权限，也未用目录链接绕过 CC Switch 的同步逻辑。只通过 CC Switch 更新公共库和 Claude 副本。
+
 ## 兼容性
 
 公共发现不等于依赖齐全。`skillspector` 需要同名 CLI；论文脚本需要 Python，PDF 工具按实际任务加载；`doc` 的渲染需要 LibreOffice/Poppler 等；`sora` 仍需要有效 API 权限，历史快照不保证远端服务仍兼容；Google 包需要对应的工具、MCP 或安装清单。系统和插件附带的 Skill 不由本仓库管理。
