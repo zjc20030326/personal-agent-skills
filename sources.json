@@ -399,7 +399,31 @@
         "exact_upstream_skill_path": "unconfirmed",
         "reason": "Preserved installed package; do not bind a similarly named but different upstream skill."
       }
+    },
+    {
+      "name": "ai4math-paper-reading",
+      "directory": "AI4Math-Paper-Reading",
+      "repo": "VeryMath/AI4Math-Paper-Reading",
+      "branch": "main",
+      "commit": null,
+      "path": "",
+      "kind": "upstream",
+      "installed_content_hash": "efaad431cd8aaa2d9d8476316b7115a43ddcf1433442d6856e6810116bf33a65",
+      "version_note": "Installed manually via CC Switch; content hash records installed bytes, not an inferred upstream commit."
+    },
+    {
+      "name": "paper-reading",
+      "directory": "paper-reading-skill",
+      "repo": "ddhh-gif/paper-reading-skill",
+      "branch": "main",
+      "commit": null,
+      "path": "",
+      "kind": "upstream",
+      "installed_content_hash": "81d23a83eee4fc46377e7e69040695d289f23646522693e9020d8448bdbf19eb",
+      "version_note": "Installed manually via CC Switch; content hash records installed bytes, not an inferred upstream commit."
     }
   ],
-  "maintenance_note": "Removed math, cavecrew and caveman-stats on 2026-10-24: incomplete project/agent dependencies and low relevance to the current paper-reading workflow."
+  "maintenance_note": "Removed math, cavecrew and caveman-stats on 2026-10-24: incomplete project/agent dependencies and low relevance to the current paper-reading workflow.",
+  "package_count": 47,
+  "discovered_skill_entries": 60
 }
