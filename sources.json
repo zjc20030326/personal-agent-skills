@@ -123,14 +123,6 @@
       "kind": "upstream"
     },
     {
-      "name": "math",
-      "repo": "parcadei/continuous-claude-v3",
-      "branch": "main",
-      "commit": "d07ff4b06b62f43771bc0c927d0211b734d6149e",
-      "path": ".claude/skills/math-unified",
-      "kind": "upstream"
-    },
-    {
       "name": "math-reasoning",
       "repo": "lingzhi227/agent-research-skills",
       "branch": "main",
@@ -144,14 +136,6 @@
       "branch": "main",
       "commit": "a041af542f126e96e859497392f8959f24af5c18",
       "path": "skills/public/systematic-literature-review",
-      "kind": "upstream"
-    },
-    {
-      "name": "cavecrew",
-      "repo": "Karnonson/caveman",
-      "branch": "main",
-      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
-      "path": "skills/cavecrew",
       "kind": "upstream"
     },
     {
@@ -192,14 +176,6 @@
       "branch": "main",
       "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
       "path": "skills/caveman-review",
-      "kind": "upstream"
-    },
-    {
-      "name": "caveman-stats",
-      "repo": "Karnonson/caveman",
-      "branch": "main",
-      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
-      "path": "skills/caveman-stats",
       "kind": "upstream"
     },
     {
@@ -424,5 +400,6 @@
         "reason": "Preserved installed package; do not bind a similarly named but different upstream skill."
       }
     }
-  ]
+  ],
+  "maintenance_note": "Removed math, cavecrew and caveman-stats on 2026-10-24: incomplete project/agent dependencies and low relevance to the current paper-reading workflow."
 }

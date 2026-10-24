@@ -16,7 +16,7 @@
 | [gcloud-auth-verification](skills/gcloud-auth-verification/SKILL.md) | 保留旧名称的 Google 身份认证指导包 | legacy-google-snapshot |
 | [skill-repair](skills/skill-repair/SKILL.md) | 保留依赖宿主安装清单的 Google 修复指导包 | legacy-google-snapshot |
 
-本仓库共 9 个可独立发现的 Skill；`sources.json` 同时记录本机 48 个公共包的准确仓库、子目录和本次上游提交。39 个第三方原版直接从各自上游更新，并未复制进本仓库。
+本仓库共 9 个可独立发现的 Skill；`sources.json` 同时记录本机 45 个公共包的准确仓库、子目录和本次上游提交。36 个第三方原版直接从各自上游更新，并未复制进本仓库。
 
 ## 更新流程
 
@@ -45,3 +45,7 @@ Windows 当前无符号链接权限，因此未更改系统权限，也未用目
 ## 兼容性
 
 公共发现不等于依赖齐全。`skillspector` 需要同名 CLI；论文脚本需要 Python，PDF 工具按实际任务加载；`doc` 的渲染需要 LibreOffice/Poppler 等；`sora` 仍需要有效 API 权限，历史快照不保证远端服务仍兼容；Google 包需要对应的工具、MCP 或安装清单。系统和插件附带的 Skill 不由本仓库管理。
+
+## 2026-10-24 兼容性清理
+
+移除公共库中的 `math`、`cavecrew`、`caveman-stats`：它们依赖未配套安装的原项目脚本、子代理或 Claude Hook，不是当前论文阅读与笔记流程的必需项。保留 `math-reasoning` 和数学排版 Skill。另移除 Gemini CLI 的旧 caveman 扩展，消除子代理加载错误与同名 Skill 冲突；公共库其他 caveman 指令包保留。当前共 45 个公共包，其中 36 个跟踪第三方上游，9 个跟踪本仓库。Gemini CLI 的旧扩展配置不等于 Antigravity CLI 的插件配置，本次未修改 Antigravity CLI。
