@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mathematical LaTeX"
+  short_description: "Format clear mathematical LaTeX for every output medium"
+  default_prompt: "Use $writing-mathematical-latex to format this mathematical content for the requested medium."

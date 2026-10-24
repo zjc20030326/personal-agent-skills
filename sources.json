@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "skills": [
+    {
+      "name": "learn-anything-fast",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/learn-anything-fast",
+      "kind": "personal",
+      "upstream_origin": null
+    },
+    {
+      "name": "learn-cs-paper",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/learn-cs-paper",
+      "kind": "personal",
+      "upstream_origin": null,
+      "local_changes": [
+        "Regression-test root is now relative to its package; runtime behavior preserved."
+      ]
+    },
+    {
+      "name": "writing-mathematical-latex",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/writing-mathematical-latex",
+      "kind": "personal",
+      "upstream_origin": null,
+      "selection_note": "Preserved the later reviewed Codex/Claude reference revision, including superscript/subscript fractions, binomial notation and operator style; stale CC Switch reference was not retained."
+    },
+    {
+      "name": "skillspector",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/skillspector",
+      "kind": "personal",
+      "upstream_origin": null
+    },
+    {
+      "name": "academic-paper-review",
+      "repo": "bytedance/deer-flow",
+      "branch": "main",
+      "commit": "a041af542f126e96e859497392f8959f24af5c18",
+      "path": "skills/public/academic-paper-review",
+      "kind": "upstream"
+    },
+    {
+      "name": "agent-browser",
+      "repo": "vercel-labs/agent-browser",
+      "branch": "main",
+      "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+      "path": "skills/agent-browser",
+      "kind": "upstream"
+    },
+    {
+      "name": "arxiv",
+      "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "commit": "23745b69a14880b5716d1773e5d20f5f1e6ab1d6",
+      "path": "skills/arxiv",
+      "kind": "upstream"
+    },
+    {
+      "name": "find-skills",
+      "repo": "vercel-labs/skills",
+      "branch": "main",
+      "commit": "a80e4c9d12d607631249d4d7d059f835d4b2f13a",
+      "path": "skills/find-skills",
+      "kind": "upstream"
+    },
+    {
+      "name": "obsidian-markdown",
+      "repo": "kepano/obsidian-skills",
+      "branch": "main",
+      "commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+      "path": "skills/obsidian-markdown",
+      "kind": "upstream"
+    },
+    {
+      "name": "paper-search",
+      "repo": "openags/paper-search-mcp",
+      "branch": "main",
+      "commit": "cab1b5cc276a0cd004a0044003926a6440088049",
+      "path": "claude-code",
+      "kind": "upstream"
+    },
+    {
+      "name": "pdf",
+      "repo": "openai/skills",
+      "branch": "main",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/.curated/pdf",
+      "kind": "upstream"
+    },
+    {
+      "name": "playwright",
+      "repo": "openai/skills",
+      "branch": "main",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "path": "skills/.curated/playwright",
+      "kind": "upstream"
+    },
+    {
+      "name": "ppt-master",
+      "repo": "hugohe3/ppt-master",
+      "branch": "main",
+      "commit": "523e5bd972f94c3cac8742fec0d54d43824a17bb",
+      "path": "skills/ppt-master",
+      "kind": "upstream"
+    },
+    {
+      "name": "literature-search-arxiv",
+      "repo": "google-deepmind/science-skills",
+      "branch": "main",
+      "commit": "4de6786171f1479026da5d3a00f110703c8ba35e",
+      "path": "skills/literature_search_arxiv",
+      "kind": "upstream"
+    },
+    {
+      "name": "math",
+      "repo": "parcadei/continuous-claude-v3",
+      "branch": "main",
+      "commit": "d07ff4b06b62f43771bc0c927d0211b734d6149e",
+      "path": ".claude/skills/math-unified",
+      "kind": "upstream"
+    },
+    {
+      "name": "math-reasoning",
+      "repo": "lingzhi227/agent-research-skills",
+      "branch": "main",
+      "commit": "9e6c085d65e313e475e921fdfe795ac11eb7589e",
+      "path": "skills/math-reasoning",
+      "kind": "upstream"
+    },
+    {
+      "name": "systematic-literature-review",
+      "repo": "bytedance/deer-flow",
+      "branch": "main",
+      "commit": "a041af542f126e96e859497392f8959f24af5c18",
+      "path": "skills/public/systematic-literature-review",
+      "kind": "upstream"
+    },
+    {
+      "name": "cavecrew",
+      "repo": "Karnonson/caveman",
+      "branch": "main",
+      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
+      "path": "skills/cavecrew",
+      "kind": "upstream"
+    },
+    {
+      "name": "caveman",
+      "repo": "Karnonson/caveman",
+      "branch": "main",
+      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
+      "path": "skills/caveman",
+      "kind": "upstream"
+    },
+    {
+      "name": "caveman-commit",
+      "repo": "Karnonson/caveman",
+      "branch": "main",
+      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
+      "path": "skills/caveman-commit",
+      "kind": "upstream"
+    },
+    {
+      "name": "caveman-compress",
+      "repo": "Karnonson/caveman",
+      "branch": "main",
+      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
+      "path": "skills/caveman-compress",
+      "kind": "upstream"
+    },
+    {
+      "name": "caveman-help",
+      "repo": "Karnonson/caveman",
+      "branch": "main",
+      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
+      "path": "skills/caveman-help",
+      "kind": "upstream"
+    },
+    {
+      "name": "caveman-review",
+      "repo": "Karnonson/caveman",
+      "branch": "main",
+      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
+      "path": "skills/caveman-review",
+      "kind": "upstream"
+    },
+    {
+      "name": "caveman-stats",
+      "repo": "Karnonson/caveman",
+      "branch": "main",
+      "commit": "ed48ec44b7596ff2faa33e70218003a3cc1d8896",
+      "path": "skills/caveman-stats",
+      "kind": "upstream"
+    },
+    {
+      "name": "grill-me",
+      "repo": "mattpocock/skills",
+      "branch": "main",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "path": "skills/productivity/grill-me",
+      "kind": "upstream"
+    },
+    {
+      "name": "grilling",
+      "repo": "mattpocock/skills",
+      "branch": "main",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "path": "skills/productivity/grilling",
+      "kind": "upstream"
+    },
+    {
+      "name": "handoff",
+      "repo": "mattpocock/skills",
+      "branch": "main",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "path": "skills/productivity/handoff",
+      "kind": "upstream"
+    },
+    {
+      "name": "doc",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/doc",
+      "kind": "archived-upstream",
+      "upstream_origin": {
+        "repository": "openai/skills",
+        "path": "skills/.curated/doc",
+        "commit": "45d05d75363abf13f99d09e899d61e07b8010685",
+        "reason": "Package removed from upstream main; last available upstream snapshot retained."
+      }
+    },
+    {
+      "name": "sora",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/sora",
+      "kind": "archived-upstream",
+      "upstream_origin": {
+        "repository": "openai/skills",
+        "path": "skills/.curated/sora",
+        "commit": "728a3e9ba7240b7dfdda961b67775ec324fd639a",
+        "reason": "Package removed from upstream main; last available upstream snapshot retained."
+      }
+    },
+    {
+      "name": "accidental-data-loss-prevention",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/accidental-data-loss-prevention",
+      "kind": "upstream"
+    },
+    {
+      "name": "bigquery-data-transfer-service",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/bigquery-data-transfer-service",
+      "kind": "upstream"
+    },
+    {
+      "name": "building-data-apps",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/building-data-apps",
+      "kind": "upstream"
+    },
+    {
+      "name": "data-autocleaning",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/data-autocleaning",
+      "kind": "upstream"
+    },
+    {
+      "name": "dataform-bigquery",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/dataform-bigquery",
+      "kind": "upstream"
+    },
+    {
+      "name": "dbt-bigquery",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/dbt-bigquery",
+      "kind": "upstream"
+    },
+    {
+      "name": "developing-with-bigquery",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/developing-with-bigquery",
+      "kind": "legacy-google-snapshot",
+      "upstream_origin": {
+        "publisher": "google",
+        "license": "Apache-2.0",
+        "exact_upstream_skill_path": "unconfirmed",
+        "reason": "Preserved installed package; do not bind a similarly named but different upstream skill."
+      }
+    },
+    {
+      "name": "discovering-gcp-data-assets",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/discovering-gcp-data-assets",
+      "kind": "upstream"
+    },
+    {
+      "name": "gcloud-auth-verification",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/gcloud-auth-verification",
+      "kind": "legacy-google-snapshot",
+      "upstream_origin": {
+        "publisher": "google",
+        "license": "Apache-2.0",
+        "exact_upstream_skill_path": "unconfirmed",
+        "reason": "Preserved installed package; do not bind a similarly named but different upstream skill."
+      }
+    },
+    {
+      "name": "gcp-composer-troubleshooting",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/gcp-composer-troubleshooting",
+      "kind": "upstream"
+    },
+    {
+      "name": "gcp-data-pipelines",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/gcp-data-pipelines",
+      "kind": "upstream"
+    },
+    {
+      "name": "gcp-dataflow",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/gcp-dataflow",
+      "kind": "upstream"
+    },
+    {
+      "name": "gcp-pipeline-orchestration",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/gcp-pipeline-orchestration",
+      "kind": "upstream"
+    },
+    {
+      "name": "gcp-pipeline-resource-provisioning",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/gcp-pipeline-resource-provisioning",
+      "kind": "upstream"
+    },
+    {
+      "name": "gcp-spark",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/gcp-spark",
+      "kind": "upstream"
+    },
+    {
+      "name": "managing-python-dependencies",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/managing-python-dependencies",
+      "kind": "upstream"
+    },
+    {
+      "name": "ml-best-practices",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/ml-best-practices",
+      "kind": "upstream"
+    },
+    {
+      "name": "notebook-guidance",
+      "repo": "GoogleCloudPlatform/data-agent-kit-plugin",
+      "branch": "main",
+      "commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "path": "skills/notebook-guidance",
+      "kind": "upstream"
+    },
+    {
+      "name": "skill-repair",
+      "repo": "zjc20030326/personal-agent-skills",
+      "branch": "main",
+      "commit": null,
+      "path": "skills/skill-repair",
+      "kind": "legacy-google-snapshot",
+      "upstream_origin": {
+        "publisher": "google",
+        "license": "Apache-2.0",
+        "exact_upstream_skill_path": "unconfirmed",
+        "reason": "Preserved installed package; do not bind a similarly named but different upstream skill."
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "计算机论文深度学习"
+  short_description: "将计算机论文转化为可追溯的双语 Obsidian 教材与互动学习流程"
+  default_prompt: "使用 $learn-cs-paper 深度学习这篇计算机论文，保留全文结构并生成双语 Obsidian 教材、知识解析和可验证练习。"
